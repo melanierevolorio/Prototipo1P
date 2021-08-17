@@ -63,7 +63,7 @@ namespace Prototipo1P
 
         private void btnCliente_Click(object sender, EventArgs e)
         {
-            gestorDeFormActivo(new Clientes(), "BotonCliente");
+            gestorDeFormActivo(new ReporteVentasEncabezado(), "BotonReporteVentas");
         }
 
         private void btnVenta_Click(object sender, EventArgs e)

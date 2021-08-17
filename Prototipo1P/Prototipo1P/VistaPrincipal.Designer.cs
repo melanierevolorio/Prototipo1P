@@ -32,7 +32,7 @@
             this.PanelMenu = new System.Windows.Forms.Panel();
             this.txtMenu = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnCliente = new System.Windows.Forms.Button();
+            this.btnReporteVentaEnca = new System.Windows.Forms.Button();
             this.btnVenta = new System.Windows.Forms.Button();
             this.btnMostrarClientes = new System.Windows.Forms.Button();
             this.btnReporteProductos = new System.Windows.Forms.Button();
@@ -74,7 +74,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.flowLayoutPanel1.Controls.Add(this.btnCliente);
+            this.flowLayoutPanel1.Controls.Add(this.btnReporteVentaEnca);
             this.flowLayoutPanel1.Controls.Add(this.btnVenta);
             this.flowLayoutPanel1.Controls.Add(this.btnMostrarClientes);
             this.flowLayoutPanel1.Controls.Add(this.btnReporteProductos);
@@ -84,16 +84,17 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(768, 38);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // btnCliente
+            // btnReporteVentaEnca
             // 
-            this.btnCliente.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnCliente.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCliente.Location = new System.Drawing.Point(3, 3);
-            this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(196, 35);
-            this.btnCliente.TabIndex = 0;
-            this.btnCliente.UseVisualStyleBackColor = false;
-            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
+            this.btnReporteVentaEnca.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnReporteVentaEnca.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteVentaEnca.Location = new System.Drawing.Point(3, 3);
+            this.btnReporteVentaEnca.Name = "btnReporteVentaEnca";
+            this.btnReporteVentaEnca.Size = new System.Drawing.Size(196, 35);
+            this.btnReporteVentaEnca.TabIndex = 0;
+            this.btnReporteVentaEnca.Text = "Reporte Ventas";
+            this.btnReporteVentaEnca.UseVisualStyleBackColor = false;
+            this.btnReporteVentaEnca.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // btnVenta
             // 
@@ -155,7 +156,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PanelMenu;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button btnCliente;
+        private System.Windows.Forms.Button btnReporteVentaEnca;
         private System.Windows.Forms.Button btnVenta;
         private System.Windows.Forms.Button btnMostrarClientes;
         private System.Windows.Forms.Label txtMenu;

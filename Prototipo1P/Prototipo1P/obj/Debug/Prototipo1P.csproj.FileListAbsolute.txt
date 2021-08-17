@@ -34,3 +34,4 @@ C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\D
 C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\stdole.dll
 C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
 C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.ReporteVentas.resources
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.ReporteVentasEncabezado.resources
