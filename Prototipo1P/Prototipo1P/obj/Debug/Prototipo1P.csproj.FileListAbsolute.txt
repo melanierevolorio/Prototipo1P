@@ -1,0 +1,16 @@
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.csprojAssemblyReference.cache
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.Clientes.resources
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.Properties.Resources.resources
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.VistaPrincipal.resources
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.csproj.GenerateResource.cache
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.csproj.CoreCompileInputs.cache
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\Prototipo1P.exe.config
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\Prototipo1P.exe
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\Prototipo1P.pdb
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.exe
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.pdb
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\Dapper.dll
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\bin\Debug\Dapper.xml
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.Venta.resources
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.csproj.CopyComplete
+C:\Users\Melanie\Desktop\PrimerParcial\Prototipo1P\Prototipo1P\Prototipo1P\obj\Debug\Prototipo1P.VerClientes.resources
