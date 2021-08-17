@@ -35,6 +35,7 @@
             this.btnCliente = new System.Windows.Forms.Button();
             this.btnVenta = new System.Windows.Forms.Button();
             this.btnMostrarClientes = new System.Windows.Forms.Button();
+            this.btnReporteProductos = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.PanelMenu.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -76,6 +77,7 @@
             this.flowLayoutPanel1.Controls.Add(this.btnCliente);
             this.flowLayoutPanel1.Controls.Add(this.btnVenta);
             this.flowLayoutPanel1.Controls.Add(this.btnMostrarClientes);
+            this.flowLayoutPanel1.Controls.Add(this.btnReporteProductos);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -88,9 +90,8 @@
             this.btnCliente.Font = new System.Drawing.Font("Berlin Sans FB", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCliente.Location = new System.Drawing.Point(3, 3);
             this.btnCliente.Name = "btnCliente";
-            this.btnCliente.Size = new System.Drawing.Size(241, 35);
+            this.btnCliente.Size = new System.Drawing.Size(196, 35);
             this.btnCliente.TabIndex = 0;
-            this.btnCliente.Text = "NUEVO CLIENTE";
             this.btnCliente.UseVisualStyleBackColor = false;
             this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
@@ -98,11 +99,11 @@
             // 
             this.btnVenta.BackColor = System.Drawing.Color.SkyBlue;
             this.btnVenta.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVenta.Location = new System.Drawing.Point(250, 3);
+            this.btnVenta.Location = new System.Drawing.Point(205, 3);
             this.btnVenta.Name = "btnVenta";
-            this.btnVenta.Size = new System.Drawing.Size(188, 35);
+            this.btnVenta.Size = new System.Drawing.Size(178, 35);
             this.btnVenta.TabIndex = 1;
-            this.btnVenta.Text = "VENTA";
+            this.btnVenta.Text = "NUEVA VENTA";
             this.btnVenta.UseVisualStyleBackColor = false;
             this.btnVenta.Click += new System.EventHandler(this.btnVenta_Click);
             // 
@@ -111,13 +112,25 @@
             this.btnMostrarClientes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnMostrarClientes.BackColor = System.Drawing.Color.SkyBlue;
             this.btnMostrarClientes.Font = new System.Drawing.Font("Nirmala UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrarClientes.Location = new System.Drawing.Point(444, 3);
+            this.btnMostrarClientes.Location = new System.Drawing.Point(389, 3);
             this.btnMostrarClientes.Name = "btnMostrarClientes";
             this.btnMostrarClientes.Size = new System.Drawing.Size(213, 35);
             this.btnMostrarClientes.TabIndex = 2;
             this.btnMostrarClientes.Text = "CLIENTES";
             this.btnMostrarClientes.UseVisualStyleBackColor = false;
             this.btnMostrarClientes.Click += new System.EventHandler(this.btnMostrarClientes_Click);
+            // 
+            // btnReporteProductos
+            // 
+            this.btnReporteProductos.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnReporteProductos.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReporteProductos.Location = new System.Drawing.Point(608, 3);
+            this.btnReporteProductos.Name = "btnReporteProductos";
+            this.btnReporteProductos.Size = new System.Drawing.Size(157, 35);
+            this.btnReporteProductos.TabIndex = 3;
+            this.btnReporteProductos.Text = "Reporte";
+            this.btnReporteProductos.UseVisualStyleBackColor = false;
+            this.btnReporteProductos.Click += new System.EventHandler(this.btnReporteProductos_Click);
             // 
             // VistaPrincipal
             // 
@@ -146,5 +159,6 @@
         private System.Windows.Forms.Button btnVenta;
         private System.Windows.Forms.Button btnMostrarClientes;
         private System.Windows.Forms.Label txtMenu;
+        private System.Windows.Forms.Button btnReporteProductos;
     }
 }

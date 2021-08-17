@@ -1,0 +1,44 @@
+INSERT INTO lineas(codigo_linea, nombre_linea, estatus_linea) VALUES(323,"Primera", "1");
+
+
+select * from vendedores; 
+select * from clientes;
+INSERT INTO vendedores(codigo_vendedor, nombre_vendedor, direccion_vendedor, telefono_vendedor, nit_vendedor, estatus_vendedor)
+VALUES ("24", "Melanie Revolorio", "14 av C 9-89", "2432312322", "619254-9", "0");
+INSERT INTO vendedores(codigo_vendedor, nombre_vendedor, direccion_vendedor, telefono_vendedor, nit_vendedor, estatus_vendedor)
+VALUES ("2", "Juanita Lopez", "33 av C 9-89", "222312322", "519254-9", "0");
+
+
+INSERT INTO clientes (codigo_cliente, nombre_cliente, direccion_cliente, nit_cliente, telefono_cliente, codigo_vendedor, estatus_cliente) 
+VALUES ("100", "Juan Luis Guerra", "13 calle A 6-89", "42151622", "121151-8", "24", "1");
+INSERT INTO clientes (codigo_cliente, nombre_cliente, direccion_cliente, nit_cliente, telefono_cliente, codigo_vendedor, estatus_cliente) 
+VALUES ("41", "Romeo Santos", "6ta calle C 1-23", "7888522", "785441-5", "24", "1");
+INSERT INTO clientes (codigo_cliente, nombre_cliente, direccion_cliente, nit_cliente, telefono_cliente, codigo_vendedor, estatus_cliente) 
+VALUES ("3", "Maria Revolorio", "13 calle A 2-89", "44231622", "124451-8", "24", "1");
+
+INSERT INTO bodegas(codigo_bodega, nombre_bodega, estatus_bodega) VALUES ("1", "planta", "0");
+
+INSERT INTO ventas_detalle (documento_ventaenca, codigo_producto, cantidad_ventadet, costo_ventadet, 
+precio_ventadet, codigo_bodega) VALUES ("54", "1", 2, 25, 30, 1);
+
+select * from ventas_encabezado;
+select * from producto;
+INSERT INTO ventas_detalle (documento_ventaenca, codigo_producto, cantidad_ventadet, costo_ventadet, 
+precio_ventadet, codigo_bodega) VALUES ("54", "2", 8, 150, 25, 1);
+INSERT INTO ventas_detalle (documento_ventaenca, codigo_producto, cantidad_ventadet, costo_ventadet, 
+precio_ventadet, codigo_bodega) VALUES ("1", "1", 8, 150, 25, 1);
+
+select * from productos;
+select * from ventas_detalle;
+
+
+INSERT INTO productos(codigo_producto, nombre_producto, codigo_linea
+, codigo_marca, existencia_producto, estatus_producto) VALUES ("1", "Blusa morada", "1", "1", 12, "1"); 
+INSERT INTO productos(codigo_producto, nombre_producto, codigo_linea
+, codigo_marca, existencia_producto, estatus_producto) VALUES ("2", "Blusa", "2", "2", 12, "1"); 
+select * from marcas;
+INSERT INTO marcas(codigo_marca, nombre_marca, estatus_marca) VALUES("1","Naic", "0");
+INSERT INTO marcas(codigo_marca, nombre_marca, estatus_marca) VALUES("2","Naic2", "0");
+select * from lineas;
+INSERT INTO lineas(codigo_linea, nombre_linea, estatus_linea) VALUES ("1", "LALINEA","0");
+INSERT INTO lineas(codigo_linea, nombre_linea, estatus_linea) VALUES ("2", "LALINEA2","0");

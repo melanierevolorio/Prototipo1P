@@ -56,7 +56,10 @@ namespace Prototipo1P
         }
 
 
-
+        private void btnReporteProductos_Click(object sender, EventArgs e)
+        {
+            gestorDeFormActivo(new ReporteVentas(), "BotonReporteVentas");
+        }
 
         private void btnCliente_Click(object sender, EventArgs e)
         {
@@ -72,5 +75,7 @@ namespace Prototipo1P
         {
             gestorDeFormActivo(new VerClientes(), "BotonVerClientes");
         }
+
+        
     }
 }
