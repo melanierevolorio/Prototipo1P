@@ -65,7 +65,7 @@
             // 
             this.txtMenu.AutoSize = true;
             this.txtMenu.Font = new System.Drawing.Font("Mistral", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMenu.Location = new System.Drawing.Point(314, 156);
+            this.txtMenu.Location = new System.Drawing.Point(301, 165);
             this.txtMenu.Name = "txtMenu";
             this.txtMenu.Size = new System.Drawing.Size(124, 42);
             this.txtMenu.TabIndex = 0;
@@ -129,7 +129,7 @@
             this.btnReporteProductos.Name = "btnReporteProductos";
             this.btnReporteProductos.Size = new System.Drawing.Size(157, 35);
             this.btnReporteProductos.TabIndex = 3;
-            this.btnReporteProductos.Text = "Reporte";
+            this.btnReporteProductos.Text = "PRODUCTOS";
             this.btnReporteProductos.UseVisualStyleBackColor = false;
             this.btnReporteProductos.Click += new System.EventHandler(this.btnReporteProductos_Click);
             // 
